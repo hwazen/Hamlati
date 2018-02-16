@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:foobar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_round"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="25dp"
+            android:background="@null"
+            android:src="@drawable/logo" />
+
+
+        <com.ctrlplusz.anytextview.AnyTextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="5dp"
+            android:text="حملتي"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            foobar:typeface="jf_flat_medium.ttf" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ctrlplusz.anytextview.AnyTextView
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ad8442"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="تسجيل الدخول"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            foobar:typeface="jf_flat_regular.ttf" />
+
+        <com.ctrlplusz.anytextview.AnyTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="#ad8442"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="إستعراض"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            foobar:typeface="jf_flat_regular.ttf" />
+    </LinearLayout>
+
+
+</RelativeLayout>
