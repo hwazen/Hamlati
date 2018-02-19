@@ -25,5 +25,5 @@ public class LoginActivity extends AppCompatActivity {
                 dialog.getWindow().setAttributes(lp);
             }
         });
-    }
+    }//fddgfhhg
 }
